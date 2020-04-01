@@ -10,8 +10,6 @@ namespace GitExercise
 
             myClass myclass = new myClass("Peter", "København", 2650);
             
-
-
         }
     }
 }

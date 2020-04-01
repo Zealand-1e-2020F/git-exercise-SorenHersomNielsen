@@ -12,5 +12,10 @@ namespace GitExercise
             Adresse = adresse;
             Postnr = postnr;
         }
+        public override string ToString()
+        {
+            return $"Person hedder {Navn}, personen bor {Adresse} i postnr {Postnr}";
+        }
+        
     }
 }
