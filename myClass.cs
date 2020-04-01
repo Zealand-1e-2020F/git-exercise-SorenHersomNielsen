@@ -7,15 +7,16 @@ namespace GitExercise
         public int Postnr {get; set;}
         public string By {get; set;}
 
-        public myClass (string navn, string adresse, int postnr)
+        public myClass (string navn, string adresse, int postnr, string by)
         {
             Navn = navn;
             Adresse = adresse;
             Postnr = postnr;
+            By = by;
         }
         public override string ToString()
         {
-            return $"Person hedder {Navn}, personen bor {Adresse} i postnr {Postnr}";
+            return $"Person hedder {Navn}, personen bor {Adresse} i postnr {Postnr} og bor i byen {By}";
         }
         
     }
